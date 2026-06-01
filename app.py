@@ -9,7 +9,7 @@ from langchain_core.tools import tool
 from langchain.agents import create_agent
 
 # PAGE CONFIGURATION
-st.set_page_config(page_title="AI Business Intelligence Agent", page_icon="📊", layout="wide")
+st.set_page_config(page_title="AI Business Intelligence Agent", layout="wide")
 
 # SECURE API KEY LOADING
 os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
