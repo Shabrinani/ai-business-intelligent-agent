@@ -128,7 +128,7 @@ else:
     
     @tool
     def Internet_Search_Tool(query: str) -> str:
-        """Search web for news/trends NOT in CSV. Input MUST be a simple text query. NO XML/JSON tags."""
+        """Search web for news/trends NOT in CSV. Input MUST be a simple text query."""
         try:
             return search_engine.run(query)
         except Exception as e:
@@ -136,7 +136,7 @@ else:
     
     @tool
     def Visualization_Tool(query: str) -> str:
-        """Draw charts ONLY. No math. Input: visual description. NO XML/JSON tags."""
+        """Draw charts ONLY. No math. Input: visual description."""
         viz_prompt = f"Draw: {query}. Use seaborn/matplotlib. Rules: figsize=(12,6), sns.set_theme('whitegrid'), rotate x-ticks 45deg, tight_layout(). Save exactly as 'chart.png'. NO code output."
         return pandas_agent.invoke({"input": viz_prompt})["output"]
 
