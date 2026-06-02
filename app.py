@@ -164,11 +164,10 @@ else:
         
         st.markdown("""
             <style>
-                /* Force all buttons inside layout columns to have a minimum height */
                 div[data-testid="column"] button {
                     min-height: 110px;
                     height: 100%;
-                    white-space: pre-wrap; /* Allows text to wrap nicely */
+                    white-space: pre-wrap;
                 }
             </style>
         """, unsafe_allow_html=True)
