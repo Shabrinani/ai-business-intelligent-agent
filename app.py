@@ -148,8 +148,7 @@ else:
     Rules:
     1. Give exact numbers and data evidence.
     2. Use tools logically: Data_Analyzer_Tool for numbers, Visualization_Tool for charts.
-    3. If chart requested, confirm it's saved as 'chart.png'.
-    4. Output as a concise numbered list."""
+    3. Output as a concise numbered list."""
 
 # CHAT AREA
     for message in st.session_state.messages:
