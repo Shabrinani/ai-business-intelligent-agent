@@ -1,15 +1,6 @@
 [theme]
-# Buttons and accents (Making them pure black so they stand out against the purple sidebar)
 primaryColor = "#000000"
-
-# The main background color for the chat area (Pure Black)
 backgroundColor = "#000000"
-
-# The background color for the SIDEBAR (Macaw Purple)
 secondaryBackgroundColor = "#10273d"
-
-# The color used for text in the main chat area
 textColor = "#ffffff"
-
-# Font family
 font = "sans serif"
